@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const api = axios.create({
-  baseURL: "http://localhost:8085",
+  baseURL: "https://smartattendance-system-production.up.railway.app/",
   // timeout: 10000, // // OPTIONAL: prevent infinite wait
 });
 
